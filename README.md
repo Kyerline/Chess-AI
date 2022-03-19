@@ -1,5 +1,6 @@
 # <p style="text-align: center;">Chess AI</p>
-![ChessBoard](https://drive.google.com/file/d/12CCT46qddhZU7Pre-J5Kgg3VnGV8jhkV/view?usp=sharing)
+![ChessBoard](https://drive.google.com/uc?export=view&id=1elM9pOUX_ILduRzbG0oNMdm1V3eBQIhi)
+
 This is a chess project written in C++, which includes the SDL2 library for the purpose of demonstrating the computational complexity and capabilities an artitifical intelligence can achieve when using compiled programming languages.
 
 The end goal for the AI is to evaluate all possible states of the chess board by using sophisticated depth-first-search algorithms, more specifically the minimax algorithm accompanied with alpha-beta pruning.
@@ -26,13 +27,15 @@ make
 ./run
 ``` 
 ## Artificial Intelligence
-![MiniMax](https://drive.google.com/file/d/1vNiWAedsmBtJ8iHvTsb6ACzSxPvHkRCq/view?usp=sharing)
+![MiniMax](https://drive.google.com/uc?exportv=view&id=1vNiWAedsmBtJ8iHvTsb6ACzSxPvHkRCq)
+
 As stated above, the artificial intelligence evaluates the different states of the chess board to calculate the best move to play. 
 
 ### Minimax Algorithm
 Minimax is an excellent algorithm to apply to any kind of match-based game for an AI because for each possible move the AI can make, the least costly move for the AI from the user's perspective can be calculated on the next future state of the search algorithm as well. Gauging the best move to play with the least to lose is what causes the AI to become a "smarter" player.
 ### Alpha-beta Pruning
-![AlphaBeta](https://drive.google.com/file/d/1QyirinekIbSXeoOnu4ZmDiQ0vfX_3wK7/view?usp=sharing)
+![AlphaBeta](https://drive.google.com/uc?exportv=view&id=1QyirinekIbSXeoOnu4ZmDiQ0vfX_3wK7)
+
 The minimax algorithm is great at computing the best potential moves which an AI can play. However, the several layers of chess board states to evaluate can come at a great computational cost. Many computations may be uneccessary, as some board evaluations may not recover from negative results.
 
 Alpha-beta pruning becomes useful to implement into the minimax algorithm because the method prunes future states of the board that have worse possible values for the AI from the player's perspective than the least values to be gained from the AI's.
