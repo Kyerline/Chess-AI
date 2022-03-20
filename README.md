@@ -42,7 +42,3 @@ Alpha-beta pruning becomes useful to implement into the minimax algorithm becaus
 
 More on Alpha-beta Pruning: 
 [Alpha-Beta - Chessprogramming Wiki](https://www.chessprogramming.org/Alpha-Beta)
-
-## Author
-Kyle Gilmore
-
