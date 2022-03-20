@@ -15,7 +15,7 @@ This program has only been tested on Unix/Linux-based systems, but compatability
 
 [SDL2_image](https://www.libsdl.org/projects/SDL_image/)
 
-After downloading the SDL2 and SDL2_image libraries, follow the installation instructions below.
+After downloading the SDL2 and SDL2_image libraries, follow the installation instructions below:
 
 [SDL2 Installation Guide](https://wiki.libsdl.org/Installation)
 
