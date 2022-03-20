@@ -33,12 +33,15 @@ As stated above, the artificial intelligence evaluates the different states of t
 
 ### Minimax Algorithm
 Minimax is an excellent algorithm to apply to any kind of match-based game for an AI because for each possible move the AI can make, the least costly move for the AI from the user's perspective can be calculated on the next future state of the search algorithm as well. Gauging the best move to play with the least to lose is what causes the AI to become a "smarter" player.
+
+More on Minimax Algorithm:
+[MiniMax - Chessprogramming Wiki](https://www.chessprogramming.org/Minimax)
 ### Alpha-beta Pruning
 ![AlphaBeta](https://drive.google.com/uc?exportv=view&id=1QyirinekIbSXeoOnu4ZmDiQ0vfX_3wK7)
 
-The minimax algorithm is great at computing the best potential moves which an AI can play. However, the several layers of chess board states to evaluate can come at a great computational cost. Many computations may be uneccessary, as some board evaluations may not recover from negative results.
+The Minimax algorithm is great at computing the best potential moves which an AI can play. However, the several layers of chess board states to evaluate can come at a great computational cost. Many computations may be uneccessary, as some board evaluations may not recover from negative results.
 
-Alpha-beta pruning becomes useful to implement into the minimax algorithm because the method prunes future states of the board that have worse possible values for the AI from the player's perspective than the least values to be gained from the AI's.
+Alpha-beta pruning becomes useful to implement into the Minimax algorithm because the method prunes future states of the board that have worse possible values for the AI from the player's perspective than the least values to be gained from the AI's.
 
 More on Alpha-beta Pruning: 
 [Alpha-Beta - Chessprogramming Wiki](https://www.chessprogramming.org/Alpha-Beta)
