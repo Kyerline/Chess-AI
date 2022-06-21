@@ -1,4 +1,4 @@
-# <p style="text-align: center;">Chess AI</p>
+# <p style="text-align: center;">Chess AI (Under Construction)</p>
 ![ChessBoard](https://drive.google.com/uc?export=view&id=1elM9pOUX_ILduRzbG0oNMdm1V3eBQIhi)
 
 This is a chess project written in C++, which includes the SDL2 library for the purpose of demonstrating the computational complexity and capabilities an artitifical intelligence can achieve when using compiled programming languages.
